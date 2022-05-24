@@ -66,22 +66,23 @@ padding-left: 16px;
 .row {
     width: 100%;
     max-width: 1300px;
-    display flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;
 }
 
 /*ABOUT */
 
 #about{
     padding: 48px 0;
+    background-color: #f8ffdc;
 }
 
-h2{
-    font-size: 60px
+h2 {
+    font-size: 60px;
     text-align: center;
     margin-bottom: 24px;
+
 }
 
 .section__description {
@@ -90,3 +91,28 @@ h2{
     align-items: center;
 }
 
+.about__img--wrapper {
+    width: 40%;
+    padding: 0 24px;
+}
+img {
+    width: 100%;
+}
+
+.section__descripton--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section__description--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+/* DISCORD */
+
+#discord{
+    background-color: #05c7cf;
+
+}
