@@ -1,11 +1,14 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500&display=swap');
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
 nav {
@@ -115,4 +118,10 @@ img {
 #discord{
     background-color: #05c7cf;
 
+}
+
+#button {
+    background-color: yellowgreen
+    edges: none;
+    
 }
