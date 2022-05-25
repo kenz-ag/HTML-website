@@ -37,13 +37,12 @@ h1 {
 }
 
 button{
-    background-color: #05c7cf;
+    background-color: rgb(213, 238, 163);
     color: white;
     border: none;
     padding: 8px 16px;
     font-size: 24px;
     cursor: pointer;
-
 }
 
 a {
@@ -118,10 +117,4 @@ img {
 #discord{
     background-color: #05c7cf;
 
-}
-
-#button {
-    background-color: yellowgreen
-    edges: none;
-    
 }
