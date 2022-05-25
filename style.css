@@ -68,15 +68,22 @@ padding-left: 16px;
 .row {
     width: 100%;
     max-width: 1300px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#about,
+#discord,
+#contact,
+#footer {
+    padding: 48px 0;
+}
+
 /*ABOUT */
 
-#about{
-    padding: 48px 0;
+#about {
     background-color: #f8ffdc;
 }
 
@@ -117,4 +124,43 @@ img {
 #discord{
     background-color: #05c7cf;
 
+}
+
+
+/* CONTACT */
+
+#contact {
+    background-color: #dcef9ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: ;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    min-width: 400px;
+    margin-bottom: 16px;
+}
+
+.footer__link {
+    margin-bottom: 42px;
 }
